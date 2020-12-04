@@ -1,0 +1,56 @@
+[
+  {
+    "source": "I am on the nejm home page {string}",
+    "steps": [
+      {
+        "name": "I am on the nejm home page \"https://www.nejm.org/\"",
+        "aggregatedDurations": {
+          "median": 14.022,
+          "average": 14.022
+        },
+        "durations": [
+          {
+            "duration": 14.022,
+            "location": "file:///C:/Users/abhishektiwari/eclipse-workspace/mms-training/src/test/resources/Features/nejm.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify the NEJM home page header buttons should be displayed",
+    "steps": [
+      {
+        "name": "I verify the NEJM home page header buttons should be displayed",
+        "aggregatedDurations": {
+          "median": 0.208,
+          "average": 0.208
+        },
+        "durations": [
+          {
+            "duration": 0.208,
+            "location": "file:///C:/Users/abhishektiwari/eclipse-workspace/mms-training/src/test/resources/Features/nejm.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I store All the search results for the searched word {string}",
+    "steps": [
+      {
+        "name": "I store All the search results for the searched word \"Heart\"",
+        "aggregatedDurations": {
+          "median": 4.553,
+          "average": 4.553
+        },
+        "durations": [
+          {
+            "duration": 4.553,
+            "location": "file:///C:/Users/abhishektiwari/eclipse-workspace/mms-training/src/test/resources/Features/nejm.feature:6"
+          }
+        ]
+      }
+    ]
+  }
+]

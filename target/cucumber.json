@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-03T21:39:07.314Z",
+        "line": 3,
+        "name": "Verify NEJM Home Page items",
+        "description": "",
+        "id": "nejm-home-page-validation-feature;verify-nejm-home-page-items",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14022000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the nejm home page \"https://www.nejm.org/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.nejm.org/\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.nejmStepDef.i_am_on_the_nejm_home_page_something(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 208000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I verify the NEJM home page header buttons should be displayed",
+            "match": {
+              "location": "stepDefinitions.nejmStepDef.i_verify_the_nejm_home_page_header_buttons_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4553000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I store All the search results for the searched word \"Heart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Heart\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepDefinitions.nejmStepDef.i_store_all_the_search_results_for_the_searched_word_something(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "NEJM Home Page Validation Feature",
+    "description": "",
+    "id": "nejm-home-page-validation-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/nejm.feature",
+    "tags": []
+  }
+]
